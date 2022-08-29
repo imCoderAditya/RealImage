@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home_24"
+        android:title="@string/home"
+        android:enabled="true"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/dashboard"
+        android:title="@string/dashboard"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@drawable/ic_dashboard_24"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/movies"
+        android:title="@string/movies"
+        android:enabled="true"
+        android:icon="@drawable/ic_movie_creation_24"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/music"
+        android:title="@string/hotTube"
+        android:icon="@drawable/ic_baseline_hot_tub_24"
+        android:enabled="true"
+        app:showAsAction="always"
+        />
+</menu>
